@@ -1,0 +1,25 @@
+Nmap Network Scan Report
+
+Tool: Nmap 7.99
+Target: 10.0.2.2
+Host Status: Up
+
+PORT       STATE    SERVICE          VERSION
+53/tcp     open     domain           dnsmasq 2.90
+135/tcp    open     msrpc            Microsoft Windows RPC
+445/tcp    open     microsoft-ds?    Service identification uncertain
+
+Service Information:
+OS: Windows
+CPE: cpe:/o:microsoft:windows
+
+Scan Summary:
+1 IP address scanned
+1 host up
+Scan duration: 7.76 seconds
+
+Security Observation:
+Ports 53, 135, and 445 were found open. These services require further assessment to determine whether they are necessary and securely configured.
+
+Note:
+This scan was conducted against an authorized local virtual lab target for educational purposes.
